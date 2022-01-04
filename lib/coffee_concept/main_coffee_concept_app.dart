@@ -1,5 +1,5 @@
-import 'package:coffee_challenge/coffee_concept/coffee_concept_list.dart';
 import 'package:flutter/material.dart';
+import 'coffee_concept_home.dart';
 
 class MainCoffeeConceptApp extends StatelessWidget {
   const MainCoffeeConceptApp({Key? key}) : super(key: key);
@@ -9,7 +9,7 @@ class MainCoffeeConceptApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
-      home: const CoffeeConceptList(),
+      home: const CoffeeConceptHome(),
     );
   }
 }
